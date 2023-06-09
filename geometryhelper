@@ -1,0 +1,33 @@
+using System;
+namespace hwdue10th
+{
+	public static class GeometryHelper
+	{
+		public static double RectangleArea(double length, double width)
+		{
+			double RectangleArea = Math.Pow(length, width);
+
+
+            return RectangleArea;
+		}
+
+		public static double TriangleArea(double side1, double side2)
+		{
+			double TriangleArea = Math.Sqrt(side1 * side2 / 2);
+
+
+            return TriangleArea;
+		}
+
+		public static double CircleArea(double radius)
+		{
+			double CircleArea = Math.PI * Math.Pow(radius, 2);
+
+
+			return CircleArea;
+		}
+	}
+}
+
+
+
